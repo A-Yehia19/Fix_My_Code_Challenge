@@ -1,3 +1,4 @@
+#!/usr/bin/node
 /*
     Print a square with the character #
     
