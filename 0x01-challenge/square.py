@@ -1,11 +1,10 @@
 #!/usr/bin/python3
 
 class square():
-    
+    """ Documentation """
     width = 0
     height = 0
 
-    
     def __init__(self, *args, **kwargs):
         """ Constructor """
         for key, value in kwargs.items():
@@ -22,6 +21,7 @@ class square():
     def __str__(self):
         """ String representation of the square """
         return "{}/{}".format(self.width, self.height)
+
 
 if __name__ == "__main__":
 
