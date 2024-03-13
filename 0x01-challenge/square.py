@@ -10,10 +10,10 @@ class square():
     __width = 0
     __height = 0
 
-    def __init__(self, *args, **kwargs):
+    def __init__(self, width = 0, height = 0):
         """ Constructor """
-        for key, value in kwargs.items():
-            setattr(self, key, value)
+        self.width = width
+        self.height = height
 
     @property
     def width(self):
