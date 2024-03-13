@@ -1,5 +1,10 @@
 #!/usr/bin/python3
 
+"""
+Square class
+"""
+
+
 class square():
     """ Documentation """
     width = 0
@@ -12,7 +17,7 @@ class square():
 
     def area_of_my_square(self):
         """ Area of the square """
-        return self.width * self.width
+        return self.width * self.height
 
     def PermiterOfMySquare(self):
         """ Permiter of the square """
